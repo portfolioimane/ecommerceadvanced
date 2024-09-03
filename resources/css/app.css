@@ -1,0 +1,33 @@
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .order-details {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .order-details h2 {
+            margin-bottom: 20px;
+        }
+        .order-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .order-details table, .order-details th, .order-details td {
+            border: 1px solid #ddd;
+        }
+        .order-details th, .order-details td {
+            padding: 12px;
+            text-align: left;
+        }
+        .order-details th {
+            background-color: #f4f4f4;
+        }
+        .success-message {
+            font-size: 18px;
+            color: #4caf50;
+        }
